@@ -27,7 +27,7 @@ function Header() {
             Desenvolvedora Front-End
           </p>
           <p className='text-sm md:text-base text-muded-foreground text-center w-72 mt-2 max-w-md mx-auto'>
-            Criando experiências digitais modernas com React, Node.js e tecnologias web inovadoras.
+            Criando experiências digitais modernas com tecnologias web.
           </p>
         </div>
 
