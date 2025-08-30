@@ -4,7 +4,7 @@ function Header() {
 
   return (
     <div className=' '>
-      <div className=' text-center '>
+      <div className=' text-center'>
         
         <div className=''>
           <div className='relative inline-block mb-6'>
@@ -27,19 +27,21 @@ function Header() {
             Desenvolvedora Front-End
           </p>
           <p className='text-sm md:text-base text-muded-foreground text-center w-72 mt-2 max-w-md mx-auto'>
-            Craindo experiências digitais modernas com React, Node.js e tecnologias web inovadoras.
+            Criando experiências digitais modernas com React, Node.js e tecnologias web inovadoras.
           </p>
         </div>
 
         {/* Botões e Ação */}
         <div className='justify-center items-center flex flex-col sm:flex-row gap-4 mb-8 text-white'>
-          <button className='bg-[#6B28D9] rounded-xl w-96 h-6'>
+          <button className='bg-[#6B28D9] rounded-xl w-80 h-6'>
             Entrar em contato
           </button>
-          <button className='bg-[#6B28D9] rounded-xl w-96 h-6'>
+          <button className='bg-[#6B28D9] rounded-xl w-80 h-6'>
             Download CV
           </button>
         </div>
+
+        {/* Icons redes sociais  */}
 
 
       </div>
