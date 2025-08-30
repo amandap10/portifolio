@@ -33,10 +33,10 @@ function Header() {
 
         {/* Botões e Ação */}
         <div className='justify-center items-center flex flex-col sm:flex-row gap-4 mb-8 text-white'>
-          <button>
+          <button className='bg-[#6B28D9] rounded-xl w-96 h-6'>
             Entrar em contato
           </button>
-          <button>
+          <button className='bg-[#6B28D9] rounded-xl w-96 h-6'>
             Download CV
           </button>
         </div>
