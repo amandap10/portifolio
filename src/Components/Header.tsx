@@ -1,3 +1,4 @@
+import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
 import Avatar from '../assets/avatar.jpg'
 
 function Header() {
@@ -43,8 +44,10 @@ function Header() {
 
         {/* Icons redes sociais  */}
 
-        <div className=''>
-
+        <div className='flex items-center gap-4'>
+          <FaLinkedin className='fill-white'/>
+          <FaGithub className='fill-white'/>
+          <FaInstagram className='fill-white'/>
         </div>
 
       </div>
