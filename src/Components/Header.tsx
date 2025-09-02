@@ -3,7 +3,7 @@ import Avatar from '../assets/avatar.jpg'
 function Header() {
 
   return (
-    <div className=' '>
+    <div className='portifolio'>
       <div className=' text-center'>
         
         <div className=''>
@@ -23,26 +23,29 @@ function Header() {
           <h1 className='text-3xl md:text-4xl lg:text-5xl font-bold mb-2 gradient-text'>
             Amanda Oliveira
           </h1>
-          <p className='text-lg md:text-xl text-muded-foreground font-medium'>
+          <p className='text-xl md:text-xl text-muded-foreground font-medium'>
             Desenvolvedora Front-End
           </p>
-          <p className='text-sm md:text-base text-muded-foreground text-center w-72 mt-2 max-w-md mx-auto'>
+          <p className='text-base md:text-lg text-muded-foreground text-center mt-2 max-w-md mx-auto'>
             Criando experiências digitais modernas com tecnologias web.
           </p>
         </div>
 
         {/* Botões e Ação */}
         <div className='justify-center items-center flex flex-col sm:flex-row gap-4 mb-8 text-white'>
-          <button className='bg-[#6B28D9] rounded-xl w-80 h-6'>
+          <button className='bg-[#6B28D9] rounded-xl w-80 h-10'>
             Entrar em contato
           </button>
-          <button className='bg-[#6B28D9] rounded-xl w-80 h-6'>
+          <button className='bg-[#6B28D9] rounded-xl w-80 h-10'>
             Download CV
           </button>
         </div>
 
         {/* Icons redes sociais  */}
 
+        <div className=''>
+
+        </div>
 
       </div>
     </div>
