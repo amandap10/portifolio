@@ -4,14 +4,14 @@ function About() {
   return (
     
     <div className="flex flex-col text-center items-center text-white">
-      <div className='max-w-4xl mx-auto'>
+      <div className='max-w-2xl p-6 sm:p-0 max-w-screen-md mx-auto'>
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 gradient-text">
           Sobre Mim
         </h2>
 
-        <div className="flex justify-center w-80 grid md:grid-cols-2 gap-8">
+        <div className="flex justify-center grid md:grid-cols-2 gap-8">
 
-          <p className="text-justify">
+          <p className="flex text-justify">
             Sou apaixonada por tecnologia e por aprender coisas novas. Tenho experiência em desenvolvimento web 
             com React e REST APIs, além de conhecimento em redes e infraestrutura, o que me dá uma visão mais 
             ampla de como sistemas e aplicações funcionam de ponta a ponta.
