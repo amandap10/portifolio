@@ -1,5 +1,6 @@
 import About from "../Components/About"
 import Header from "../Components/Header"
+import Skills from "../Components/Skills"
 
 
 const Index = () => {
@@ -7,6 +8,7 @@ const Index = () => {
     <div className="bg-slate-900 min-h-screen">
         <Header />
         <About />
+        <Skills />
     </div>
   )
 }
