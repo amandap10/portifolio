@@ -20,11 +20,11 @@ function Header() {
           </div>
         </div>
 
-        <div className='mt-6 mb-6 flex flex-col items-center text-white'>
-          <h1 className='text-3xl md:text-4xl lg:text-5xl font-bold mb-2 gradient-text'>
+        <div className='mt-6 mb-10 flex flex-col items-center text-white'>
+          <h1 className='text-3xl md:text-4xl lg:text-5xl font-bold mb-2 gradient-text mb-2'>
             Amanda Oliveira
           </h1>
-          <p className='text-xl md:text-xl text-muded-foreground font-medium'>
+          <p className='text-xl md:text-xl text-muded-foreground font-medium mb-4'>
             Desenvolvedora Front-End
           </p>
           <p className='text-base md:text-lg text-muded-foreground text-center mt-2 max-w-md mx-auto'>
@@ -33,7 +33,7 @@ function Header() {
         </div>
 
         {/* Botões e Ação */}
-        <div className='justify-center items-center flex flex-col sm:flex-row gap-4 mb-8 text-white'>
+        <div className='justify-center items-center flex flex-col sm:flex-row gap-4 mb-10 text-white'>
           <button className='bg-[#6B28D9] rounded-xl w-80 h-10'>
             Entrar em contato
           </button>
@@ -44,10 +44,10 @@ function Header() {
 
         {/* Icons redes sociais  */}
 
-        <div className='flex items-center gap-4'>
-          <FaLinkedin className='fill-white'/>
-          <FaGithub className='fill-white'/>
-          <FaInstagram className='fill-white'/>
+        <div className='justify-center items-center flex mb-6 gap-4'>
+          <FaLinkedin className='fill-white w-6 h-6'/>
+          <FaGithub className='fill-white w-6 h-6'/>
+          <FaInstagram className='fill-white w-6 h-6'/>
         </div>
 
       </div>

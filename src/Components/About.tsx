@@ -5,7 +5,7 @@ function About() {
     
     <div className="flex flex-col text-center items-center text-white">
       <div className='max-w-2xl p-6 sm:p-0 max-w-screen-md mx-auto'>
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 gradient-text">
+        <h2 className="text-2xl md:text-3xl font-bold text-[#6B28D9] text-center mb-8 gradient-text">
           Sobre Mim
         </h2>
 
