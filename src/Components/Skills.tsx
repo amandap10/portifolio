@@ -5,7 +5,7 @@ function Skills() {
   const skillCategories= [
     {
       title: "Frontend",
-      skills: ["React", "Typescript"]
+      skills: ["React", "Typescript", "Tailwind CSS", "HTML5", "CSS3", "JavaScript"]
     },
     {
       title: "Backend", 
@@ -22,8 +22,8 @@ function Skills() {
   ]
 
   return (
-    <section className="bg-gray-950 ">
-      <div className="pt-6">
+    <section className="bg-gray-900 ">
+      <div className="pt-6 pb-10">
         <div className="max-w-6xl p-6 mx-auto">
           <h2 className="text-[#6B28D9] text-2xl md:text-3xl font-bold text-center mb-12">
             Habilidades & Tecnologias
