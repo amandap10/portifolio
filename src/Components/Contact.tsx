@@ -1,3 +1,5 @@
+import { FaMailBulk, FaPhone } from "react-icons/fa"
+import { FaLocationPin } from "react-icons/fa6"
 
 
 function Contact() {
@@ -20,6 +22,11 @@ function Contact() {
               oportunidades de colaboração ou apenas trocar ideias sobre tecnologia.
               Entre em contato!
             </p>
+
+            <FaMailBulk className="fill-white w-10 h-10"/>
+            <FaPhone className="fill-white w-10 h-10"/>
+            <FaLocationPin className="fill-white w-10 h-10"/>
+            
           </div>
         </div>
 
