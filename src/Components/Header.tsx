@@ -9,7 +9,7 @@ function Header() {
         
         <div className=''>
           <div className='relative inline-block mb-6'>
-            <div className='w-32 h-32 md:w-40 md:h-40 mt-24 mx-auto rounded-full overflow-hidden border-accent/30 animate-float'>
+            <div className='w-32 h-32 md:w-40 md:h-40 mt-24 mx-auto rounded-full overflow-hidden'>
               <img 
                 className='w-full h-full object-cover '
                 src={Avatar} 
@@ -35,9 +35,11 @@ function Header() {
         {/* Botões e Ação */}
         <div className='justify-center items-center flex flex-col sm:flex-row gap-4 mb-10 text-white'>
           <button className='bg-[#6B28D9] rounded-xl w-80 h-10'>
+            
             Entrar em contato
           </button>
           <button className='bg-[#6B28D9] rounded-xl w-80 h-10'>
+            
             Download CV
           </button>
         </div>

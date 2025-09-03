@@ -5,7 +5,7 @@ import Skills from "../Components/Skills"
 
 const Index = () => {
   return (
-    <div className="bg-slate-900 min-h-screen">
+    <div className="bg-slate-950 min-h-screen">
         <Header />
         <About />
         <Skills />
