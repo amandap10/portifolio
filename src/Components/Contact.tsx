@@ -52,7 +52,7 @@ function Contact() {
               </div>
               <div>
                 <div className="font-medium text-white">Localização</div>
-                <div className="text-gray-500">Sorocaba/SP</div>
+                <div className="text-gray-500">Sorocaba,SP - Brasil</div>
               </div>
             </div>
 
